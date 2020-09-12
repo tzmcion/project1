@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <p style="position: absolute; margin-left: 25px; color:white"> Change Size </p>
+    <input style="position: absolute;" type="range" id="myRange">
+    <!--  -->
+    <p style="position: absolute; margin-left: 25px;margin-top: 75px; color:white"> Change Amount </p>
+    <input style="position: absolute; margin-top: 50px;" type="range" id="myAmount">
+    <!--  -->
+    <p style="position: absolute; margin-left: 25px;margin-top: 125px; color:white"> Change Trail </p>
+    <input style="position: absolute; margin-top: 100px;" type="range" id="mySpace">
+    <!--  -->
+    <p style="position: absolute; margin-left: 5px;margin-top: 175px; color:white"> Check for random balls sizes </p>
+    <input style="position: absolute; margin-top: 150px; margin-left: 50px;" type="checkbox" id="myCheck">
+    <!--  -->
+    <p style="position: absolute; margin-left: 5px;margin-top: 225px; color:white"> Check to change color :O </p>
+    <input style="position: absolute; margin-top: 200px; margin-left: 50px;" type="checkbox" id="myColorChange">
+    <div id="ballcolor"></div>
+    <!--  -->
+    <p style="position: absolute; margin-left: 5px;margin-top: 275px; color:white"> Change Trail Size </p>
+    <input style="position: absolute; margin-top: 250px;" type="range" id="myTrailSize" placeholder="0">
+    <!--  -->
+    <p style="position: absolute; margin-left: 5px;margin-top: 325px; color:white"> Check To change background color </p>
+    <input style="position: absolute; margin-top: 300px; margin-left: 50px;" type="checkbox" id="myBgChange">
+    <div id="Bg_Options" >
+    </div>
+    <canvas id='canvas'></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
