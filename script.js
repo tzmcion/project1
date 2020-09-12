@@ -51,7 +51,7 @@ function Sparkle(x, y, dx, dy) {
                     this.traile.push(new trail());    
                 }
             }else{
-                for(let z = 0; z < this.traile.length + 1 - space_between * 2.5; z++){
+                for(let z = 0; z <= this.traile.length + 1 - space_between * 2.5; z++){
                     this.traile.pop();
             }}
             
